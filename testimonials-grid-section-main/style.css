@@ -1,0 +1,297 @@
+html{
+    font-size:13px;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0px;
+    
+}
+body{
+    
+    background-color:#ecf2f8;
+    padding:20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+#testimonial-1{
+    width:100%;
+    border:1px solid black;
+    
+    margin-bottom:20px;
+    padding:30px;
+    
+    background-color:#7541c8;
+    color:white;
+    border-radius:5px;
+    border:none;
+    position:relative;
+    
+    
+}
+#testimonial-1 .picture{
+    display:flex;
+    align-items:center;
+    
+}
+#testimonial-1 .circle{
+    border-radius:50%;
+    border: 4px solid #9c6cf5;
+    margin-right:10px;
+    
+}
+#header{
+    line-height:1.5rem;
+    
+   
+    
+}
+ .Quote{
+    position:absolute;
+    right:13%;
+    top:0;
+ 
+    
+}
+
+
+
+#testimonial-1 h2{
+    font-size:1.5rem;
+    padding-top:20px;
+    padding-bottom:20px;
+   
+}
+#testimonial-1 h5{
+   
+    opacity:0.5;
+   
+}
+#testimonial-1 p{
+    opacity:0.7;
+    font-size:1rem;
+    line-height:1.5;
+    
+    
+}
+#testimonial-2{
+    width:100%;
+    border:1px solid green;
+    margin-bottom:20px;
+    padding:30px;
+    background-color:#48556a;
+    color:white;
+    border-radius:5px;
+    border:none;
+}
+#testimonial-2 .picture{
+    display:flex;
+    align-items:center;
+    
+}
+#testimonial-2 img{
+    border-radius:50%;
+    
+    margin-right:10px;
+    
+}
+#header{
+    line-height:1.5rem;
+    
+   
+    
+}
+
+#testimonial-2 h2{
+    font-size:1.5rem;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#testimonial-2 h5{
+    
+    opacity:0.5;
+    margin-top:-1px;
+}
+#testimonial-2 p{
+    opacity:0.7;
+    font-size:0.9rem;
+    line-height:1.2;
+}
+#testimonial-3{
+    width:100%;
+    border:1px solid red;
+    margin-bottom:20px;
+    padding:30px;
+    background-color:white;
+    color:#48556a;
+    border-radius:5px;
+    border:none;
+}
+#testimonial-3 .picture{
+    display:flex;
+    align-items:center;
+    
+}
+#testimonial-3 img{
+    border-radius:50%;
+    
+    margin-right:10px;
+    
+}
+#header{
+    line-height:1.5rem;
+    
+   
+    
+}
+
+#testimonial-3 h2{
+    font-size:1.5rem;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#testimonial-3 h5{
+    
+    opacity:0.5;
+    margin-top:-1px;
+}
+#testimonial-3 p{
+    opacity:0.7;
+    font-size:1rem
+    
+}
+#testimonial-4{
+    width:100%;
+    border:1px solid orange;
+    margin-bottom:20px;
+    padding:30px;
+    background-color:#19212e;
+    color:white;
+    border-radius:5px;
+    border:none;
+}
+#testimonial-4 .picture{
+    display:flex;
+    align-items:center;
+    
+}
+#testimonial-4 img{
+    border-radius:50%;
+    
+    margin-right:10px;
+    
+}
+#header{
+    line-height:1.5rem;
+    
+   
+    
+}
+
+#testimonial-4 h2{
+    font-size:1.4rem;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#testimonial-4 h5{
+    
+    opacity:0.5;
+    margin-top:-1px;
+}
+#testimonial-4 p{
+    opacity:0.7;
+    font-size:1rem
+    
+}
+#testimonial-5{
+    width:100%;
+    border:1px solid pink;
+    margin-bottom:20px;
+    padding:30px;
+    background-color:white;
+    color:#48556a;
+    border-radius:5px;
+    border:none;
+}
+#testimonial-5 .picture{
+    display:flex;
+    align-items:center;
+    
+}
+#testimonial-5 img{
+    border-radius:50%;
+    
+    margin-right:10px;
+    
+}
+#header{
+    line-height:1.5rem;
+    
+   
+    
+}
+
+#testimonial-5 h2{
+    font-size:1.4rem;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+#testimonial-5 h5{
+    
+    opacity:0.5;
+    margin-top:-1px;
+}
+#testimonial-5 p{
+    opacity:0.7;
+    font-size:0.95rem
+    
+}
+
+@media (min-width: 576px){
+    #testimonial-1{
+        margin-top:0px;
+        
+    }
+  
+    #main-container{
+        display:flex;
+        justify-content:center;
+        padding:20px;
+        max-width:1440;
+        
+        
+    }
+    #left-top{
+        display:flex;
+    }
+    #testimonial-2{
+        flex:40%;
+        margin-left:20px;
+        margin-right:20px;
+
+    }
+    #left-bottom{
+        display:flex;
+    }
+    #testimonial-3{
+        flex-basis:40%;
+        margin-right:20px;
+    }
+    #testimonial-4{
+        margin-right:20px;
+
+    }
+    #testimonial-5 p{
+        line-height:1.4;
+        font-size:1.1rem;
+    }
+    
+
+
+
+   
+  
+
+    
+
+}
